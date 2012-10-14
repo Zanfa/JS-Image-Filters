@@ -52,7 +52,7 @@ Filters.grayscale = function (canvas) {
  *
  * @param canvas canvas object
  * @param patternImg pattern to draw on top of the original image
- * @param alpha
+ * @param alpha alpha level of the overlaying pattern
  */
 Filters.pattern = function (canvas, patternImg, alpha) {
     var x, y, patternWidth, patternHeight, ctx;
